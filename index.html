@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuoerNatural</title>
+     <!--favicon-->
+  <link rel="icon" type="img/png" href="./images/favicon.jpeg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font: 400 15px/1.8 "Lato", sans-serif;
+          color: #777;
+        }
+        
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+          position: relative;
+          /*opacity: 0.65;*/
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+        }
+        .bgimg-1 {
+          background-image: url("./images/yellow_messy_2000x1350_v2.jpg");
+          min-height: 100%;
+        }
+        
+        .bgimg-2 {
+          background-image: url("./images/Scoop+AShop+2.png");
+          min-height: 800px;
+        }
+        
+        .bgimg-3 {
+          background-image: url("./images/Untitled+design+\(5\).png");
+          min-height: 1200px;
+        }
+        .bgsolid1{
+            background-color: white;
+            color: black;
+            
+            position: relative;
+          /*opacity: 0.65;*/
+          background-attachment: fixed;
+          background-position: center;
+        }
+        .bgsolid2{
+            background-color:rgb(230, 190, 80);
+            position: relative;
+          /*opacity: 0.65;*/
+          background-attachment: fixed;
+          background-position: center;
+        }
+        .bgsolid3{
+            background-color:rgb(230, 190, 80);
+            position: relative;
+          /*opacity: 0.65;*/
+          background-attachment: fixed;
+          background-position: center;
+        }
+        .maincaption{
+            position: absolute;
+          left:0;
+          top: 5%;
+          width: 100%;
+          justify-content: end;
+          text-align: left;
+          color: #000;
+        }
+        #logo:hover{
+            width: 30px;
+        }
+        
+        .caption {
+          position: absolute;
+          left: 50%;
+          top: 20%;
+          width: 40%;
+          justify-content: end;
+          text-align: left;
+          color: #000;
+        }
+        .caption2{
+        margin-top: 5%;
+          text-align: left;
+          color: #000;
+
+        }
+        .caption3{
+            position: absolute;
+          left: 40%;
+          top: 20%;
+          width: 40%;
+          
+
+        }
+
+        
+      /*  .caption span.border {
+          background-color:transparent;
+          color: #050505;
+          padding: 18px;
+          font-size: 25px;
+          letter-spacing: 10px;
+        }*/
+        
+        h3 {
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          font: 20px "Lato", sans-serif;
+          color: #111;
+        }
+        .grid{
+            display: grid;
+  grid-template-columns: repeat(4, 400px);
+  grid-auto-rows: 300px;
+  gap: 10px;
+        }
+        .grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer{
+    background-color: #d9cb0e;
+}
+
+        
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1024px) {
+          .bgimg-1, .bgimg-2, .bgimg-3 {
+            background-attachment: scroll;
+          }
+        }
+        </style>
+</head>
+<body>
+    <div class="bgimg-1 flex">
+        <nav class="navbar navbar-expand-lg navbar-light flex-col">
+            <div class="container">
+                <ul class="navbar-nav text-[14px] flex justify-start font-semibold pt-3 mx-[180%]">
+                    <li class="nav-item active">
+                        <a class="nav-link text-black mr-8" style="cursor: pointer;" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">OurStory</a>
+                    </li>
+
+                    
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="maincaption flex justify-center">
+            
+        <img src="./images/Supernatural-Logo.png" width="15%" id="logo">
+        </div>
+        <div class="flex">
+        <nav class="navbar navbar-expand-lg navbar-light flex-col">
+            <div class="container">
+
+
+                <ul class="navbar-nav text-[14px]  flex justify-end position-relative left-[1000px] font-semibold pt-3 mx-[160%]">
+                    <li class="nav-item">
+                        <a class="nav-link text-black mr-8" href="#">Recipies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black mr-8" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Cart(0)</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+       </div> 
+      </div>
+      
+    
+      
+      <div class="bgimg-2 flex  align-items-center p-32">
+        <div><img src="./images/Untitled+design+(1).png" alt="" class="w-[700px] ms-80"></div>
+        <div class="caption flex-row align-items-end">
+        <h1 style="background-color:transparent;font-size:55px;color: #f7f7f7;">Cause the only thing that<br> should melt down is ice<br> cream. </h1>
+        <h4 style="background-color:transparent;font-size:15px;color: #f7f7f7;">It’s no secret: Some kids react badly to artificial colors. Our dye-free toppings let kids<br> be kids, and give parents peace of mind. 
+        </h4>
+        <a href="" style="background-color:transparent;font-size:45px;color: #f7f7f7;">Shop Sprinkles</a>
+        </div>
+      </div>
+      
+      <section class="bgsolid1 flex  align-items-center p-80 h-[300px] w-[100%]">
+        <div class="caption2 flex-row align-items-start ms-72 pr-36 pb-5">
+            <h1 style="background-color:transparent;font-size:55px;color: #130f0f;">Raise your hand for <br> real rainbows.
+            </h1>
+            <h4 style="background-color:transparent;font-size:15px;color: #100d0d;">In the world of playful baking chips, colors come with a side of <br> chemicals. So we created the first colorful chip made with colors from <br>plants, and a rich & creamy sweetness from coconut milk and organic, <br>non-gmo cane sugar.
+            </h4>
+            <a href="" style="background-color:transparent;font-size:45px;color: #050404;">Shop chips</a>
+            </div>
+            <div class="flex align-items-end"><img src="./images/Supernatural-Rainbow-Chips_230929.png" alt="" class="w-[600px]"></div>
+
+      </section>
+      <section class="bgsolid2 h-[800px] w-[100%]flex  align-items-center p-32">
+        
+            <div><img src="./images/Untitled+design+(4).png" alt="" class="w-[700px] ms-80"></div>
+            <div class="caption3 flex-row align-items-end text-right">
+            <h1 class="pb-5" style="background-color:transparent;font-size:55px;color: #f7f7f7;">Let’s party with plants. </h1>
+            <h4 class="pb-3"style="background-color:transparent;font-size:15px;color: #f7f7f7;">Artificially dyed cakes made us cringe, but plain white swirls left us sulking. So we<br> followed the rainbow to a fresh recipe for vibrant frostings — made from ingredients<br>that made us proud, and bursting with the incredible taste of real buttercream. 
+            </h4>
+            <a href="" style="background-color:transparent;font-size:45px;color: #f7f7f7;">Shop frostings.</a>
+            
+          </div>
+          
+
+      </section>
+      
+      <div class="bgimg-3 flex align-items-center p-32">
+        <div class="caption2 flex-row align-items-start ms-72 pr-36 pb-5">
+            <h1 class="pb-5" style="background-color:transparent;font-size:55px;color: #fafafa;">Big bags for big fans. 
+            </h1>
+            <h4  class="pb-3"style="background-color:transparent;font-size:15px;color: #f7f6f6;">Save up to 35% with extra large bags of our bestselling dye-free sprinkles, perfect for  <br>bakeries, scoop shops, and extremely lucky children.
+            </h4>
+            <a href="" style="background-color:transparent;font-size:45px;color: #f8f6f6;">Shop big bags.</a>
+            </div>
+            <div class="flex align-items-end"><img src="./images/Supernatural_Rainbow-Softies-1lb_2204.png" alt="" class="w-[600px]"></div>
+      </div>
+      <section class="bgsolid3 h-[950px] w-[100%]flex  align-items-center p-32 ps-80" >
+        <h1 style="background-color:transparent;font-size:35px;color: #f8f6f6;text-align: center;padding-bottom: 10px;">The sprinkle grams:</h1>
+       <div class="grid pt-5"> 
+        <div class="grid-item"><img src="./images/image-asset (9).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (7).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (6).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (5).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (4).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (2).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset (1).jpeg" alt=""></div>
+        <div class="grid-item"><img src="./images/image-asset.jpeg" alt=""></div>
+    </div>
+        
+
+      </section>
+      
+     
+      
+      <footer class="bgfooter flex-col w-[100%] h-[250px] justify-center align-items-center">
+        <div class="pt-[3%] px-[48%]"><img src="./images/image-asset.gif" alt="" ></div>
+        <div class="">
+            <ul class="flex justify-center">
+            <li class="pr-4"><a href="" class="text-decoration-underline">Contact</a></li>
+            <li class="pr-4"><a href=""class="text-decoration-underline">Wholesale & Bulk</a></li>
+            <li class="pr-4"><a href=""class="text-decoration-underline">Follow</a></li>
+            <li class="pr-4"><a href=""class="text-decoration-underline">Get our newsletter </a></li>
+            <li class="pr-2"><a href=""class="text-decoration-underline">Terms</a></li>
+           </ul>
+        </div>
+        <div>
+<span class="position-relative left-[43%] italic text-center">Supernatural, Inc. ©2022 — All rights reserved.</span>
+        </div>
+        
+       
+        
+    </footer>
+    
+    
+</body>
+</html>
+<body>
+    
+</body>
+</html>
